@@ -1,0 +1,21 @@
+{
+  "name": "body-parser-for-serverless",
+  "version": "0.8.0",
+  "description": "",
+  "main": "src/bodyParser.js",
+  "keywords": [
+    "body",
+    "serverless",
+    "lambda",
+    "function",
+    "parser",
+    "multiform"
+  ],
+  "repository": "",
+  "homepage": "https://github.com/owner/project#readme",
+  "author": "Jeferson 'Shin' Leite Borges",
+  "license": "MIT",
+  "dependencies": {
+    "busboy": "^0.3.1"
+  }
+}
