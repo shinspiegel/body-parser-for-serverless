@@ -1,6 +1,6 @@
 {
   "name": "body-parser-for-serverless",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "body parser for serverless lambda functions",
   "main": "src/bodyParser.js",
   "keywords": [
