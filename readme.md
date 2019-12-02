@@ -13,12 +13,23 @@ Just pass the event object to the parser function and it will return the body pa
 
 ### Exemple
 
+`yarn add body-parser-for-serverless`
+
+or
+
+`npm install body-parser-for-serverless`
+
+This is a simple code that shows how to use it.
+
 ```js
 "use strict";
+const parser = require("body-parser-for-serverless");
 
 module.exports.v1 = async (event, context) => {
   //this is the parsed body.
-  const parsedBody = await Parser(event);
+  const parsedBody = await parser(event);
+
+  console.log(parsedBody);
 
   return {
     statusCode: 200,
